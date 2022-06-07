@@ -1,7 +1,13 @@
-# Vue 3 + Vite
+# Quantpos Playground
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This playground lets you try quantpos with different contexts.
 
-## Recommended IDE Setup
+When you click on "toggle", the `#c2` element will be placed at the exact location of the `#c` element, no matter the transformation, position, margin and padding.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Also, when you click in the `#areaB` (the cyan rect), the purple ball will get transformed to the click position.
+
+Note that `#c2` and the `#ball` element are not related in the dom to their target, to demonstrate FLIP-like usage of quantpos.
+
+# Usage
+
+Clone this repository, run insall in your npm-like, then launch the `serve` script.
